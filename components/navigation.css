@@ -1,37 +1,3 @@
-.navigation-links-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links-text {
-  color: var(--dl-color-scheme-white);
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 41px;
-}
-.navigation-links-text:hover {
-  color: var(--dl-color-scheme-pink);
-}
-
-
-
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links-text {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .navigation-header {
   top: 0;
   width: 100%;
@@ -94,7 +60,7 @@
   background-size: cover;
   justify-content: space-between;
   background-color: #fff;
-  background-image: url("public/playground_assets/blue-background-1500h.png");
+  background-image: url("/playground_assets/blue-background-1500h.png");
 }
 .navigation-nav1 {
   display: flex;
