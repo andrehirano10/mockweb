@@ -52,10 +52,6 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.navigation-image {
-  width: 318px;
-  height: 181px;
-}
 .navigation-nav {
   flex: 0 0 auto;
   display: flex;
@@ -146,8 +142,8 @@
   height: var(--dl-size-size-xsmall);
 }
 .navigation-root-class-name {
-  top: -31px;
-  left: -5px;
+  top: 379px;
+  right: -1127px;
 }
 @media(max-width: 991px) {
   .navigation-nav {
