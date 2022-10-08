@@ -55,16 +55,14 @@
 }
 .home-video-container {
   flex: 1;
+  width: 200px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-video {
-  flex: 1;
-  width: 100%;
-  filter: grayscale();
-  max-width: 635px;
-  min-height: 635px;
+.home-image {
+  width: 648px;
+  height: 659px;
   object-fit: cover;
 }
 .home-blue-background {
@@ -107,10 +105,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-image {
-  height: 80px;
-  object-fit: cover;
-}
 .home-image1 {
   height: 80px;
   object-fit: cover;
@@ -128,6 +122,10 @@
   object-fit: cover;
 }
 .home-image5 {
+  height: 80px;
+  object-fit: cover;
+}
+.home-image6 {
   height: 80px;
   object-fit: cover;
 }
@@ -203,7 +201,7 @@
   align-items: stretch;
   flex-direction: row;
 }
-.home-image6 {
+.home-image7 {
   width: 55%;
   max-height: 950px;
   object-fit: cover;
@@ -370,7 +368,7 @@
   font-size: 42px;
   margin-bottom: 42px;
 }
-.home-image7 {
+.home-image8 {
   width: 1200px;
   height: 259px;
   object-fit: cover;
@@ -395,16 +393,6 @@
 .home-text16 {
   text-align: center;
 }
-.home-slider-controls {
-  top: calc(50% + 24px);
-  width: calc(60% + 48px);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-self: center;
-  justify-content: space-between;
-}
 @media(max-width: 991px) {
   .home-max-width {
     flex-direction: column;
@@ -412,10 +400,6 @@
   .home-content-container {
     max-width: 100%;
     margin-bottom: 42px;
-  }
-  .home-video {
-    max-width: 100%;
-    min-height: 500px;
   }
   .home-blue-background {
     top: auto;
@@ -432,7 +416,7 @@
   .home-location {
     flex-direction: column;
   }
-  .home-image6 {
+  .home-image7 {
     width: 100%;
   }
   .home-content-container1 {
@@ -453,9 +437,6 @@
   .home-container6 {
     margin-right: var(--dl-space-space-unit);
   }
-  .home-slider-controls {
-    width: calc(75% + 48px);
-  }
 }
 @media(max-width: 767px) {
   .home-text {
@@ -467,7 +448,7 @@
   .home-numbers-container {
     grid-template-columns: 1fr 1fr;
   }
-  .home-image6 {
+  .home-image7 {
     max-height: 100%;
   }
   .home-content-container1 {
@@ -496,9 +477,6 @@
   }
   .home-previous-events {
     padding-bottom: var(--dl-space-space-sixunits);
-  }
-  .home-slider-controls {
-    width: calc(80% + 48px);
   }
 }
 @media(max-width: 479px) {

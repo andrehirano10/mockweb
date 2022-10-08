@@ -38,14 +38,11 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-video-container">
-              <video
-                src
-                muted="true"
-                poster="/playground_assets/rectangle%205-1200w.png"
-                autoPlay="true"
-                controls="true"
-                className="home-video"
-              ></video>
+              <img
+                src="/playground_assets/conference-700w.jpeg"
+                alt="image"
+                className="home-image"
+              />
             </div>
           </div>
           <div className="home-blue-background"></div>
@@ -67,32 +64,32 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/group%207-1200w.png"
-                className="home-image"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/unitylogo-1200w.webp"
                 className="home-image1"
               />
               <img
                 alt="image"
-                src="/playground_assets/oip%20%5B3%5D-1200w.jpg"
+                src="/playground_assets/unitylogo-1200w.webp"
                 className="home-image2"
               />
               <img
                 alt="image"
-                src="/playground_assets/r-1200w.jpg"
+                src="/playground_assets/oip%20%5B3%5D-1200w.jpg"
                 className="home-image3"
               />
               <img
                 alt="image"
-                src="/playground_assets/oip%20%5B1%5D-1200w.jpg"
+                src="/playground_assets/r-1200w.jpg"
                 className="home-image4"
               />
               <img
                 alt="image"
-                src="/playground_assets/group%2012-1200w.png"
+                src="/playground_assets/oip%20%5B1%5D-1200w.jpg"
                 className="home-image5"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/group%2012-1200w.png"
+                className="home-image6"
               />
             </div>
           </div>
@@ -194,7 +191,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/shanghai-1000h.jpg"
-            className="home-image6"
+            className="home-image7"
           />
           <div className="home-content-container1 section-container">
             <div className="home-container3">
@@ -271,7 +268,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="/playground_assets/captura%20da%20web_29-8-2022_201046_home.yodo1.com-300h.jpeg"
-              className="home-image7"
+              className="home-image8"
             />
           </div>
         </div>
@@ -283,7 +280,6 @@ const Home = (props) => {
               </h1>
             </div>
           </div>
-          <div className="home-slider-controls"></div>
         </div>
       </main>
       <Footer rootClassName="footer-root-class-name"></Footer>
