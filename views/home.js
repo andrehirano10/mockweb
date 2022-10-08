@@ -21,6 +21,11 @@ const Home = (props) => {
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
+              <img
+                src="/playground_assets/picturebro-400h.jpg"
+                alt="image"
+                className="home-image"
+              />
               <h1 className="home-text">
                 On a mission to collaborate with global studios. connect with
                 our team to leverage your studios growth.
@@ -41,7 +46,7 @@ const Home = (props) => {
               <img
                 src="/playground_assets/conference-700w.jpeg"
                 alt="image"
-                className="home-image"
+                className="home-image01"
               />
             </div>
           </div>
@@ -64,32 +69,32 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/group%207-1200w.png"
-                className="home-image1"
+                className="home-image02"
               />
               <img
                 alt="image"
                 src="/playground_assets/unitylogo-1200w.webp"
-                className="home-image2"
+                className="home-image03"
               />
               <img
                 alt="image"
                 src="/playground_assets/oip%20%5B3%5D-1200w.jpg"
-                className="home-image3"
+                className="home-image04"
               />
               <img
                 alt="image"
                 src="/playground_assets/r-1200w.jpg"
-                className="home-image4"
+                className="home-image05"
               />
               <img
                 alt="image"
                 src="/playground_assets/oip%20%5B1%5D-1200w.jpg"
-                className="home-image5"
+                className="home-image06"
               />
               <img
                 alt="image"
                 src="/playground_assets/group%2012-1200w.png"
-                className="home-image6"
+                className="home-image07"
               />
             </div>
           </div>
@@ -191,7 +196,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/shanghai-1000h.jpg"
-            className="home-image7"
+            className="home-image08"
           />
           <div className="home-content-container1 section-container">
             <div className="home-container3">
@@ -268,7 +273,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="/playground_assets/captura%20da%20web_29-8-2022_201046_home.yodo1.com-300h.jpeg"
-              className="home-image8"
+              className="home-image09"
             />
           </div>
         </div>
@@ -282,6 +287,11 @@ const Home = (props) => {
           </div>
         </div>
       </main>
+      <img
+        src="/playground_assets/picturebro-400h.jpg"
+        alt="image"
+        className="home-image10"
+      />
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
   )
